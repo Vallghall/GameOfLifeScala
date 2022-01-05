@@ -1,5 +1,3 @@
-import scala.util.Random
-
 class Cell(state: Boolean) {
   private[this] var alive = state
 
