@@ -23,6 +23,6 @@ object Game extends App {
   while (true) {
     grid.updateGrid()
     grid.show
-    Thread.sleep(100)
+    Thread.sleep(200)
   }
 }

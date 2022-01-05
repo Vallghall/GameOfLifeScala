@@ -9,5 +9,5 @@ class Cell(state: Boolean) {
 
   def isAlive: Boolean = alive
 
-  override def toString: String = if (isAlive) "O" else "*"
+  override def toString: String = if (isAlive) f"${0x25A1.toChar}" else f"${0x25A0.toChar}"
 }
